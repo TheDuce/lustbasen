@@ -1,4 +1,3 @@
-
 // Selectors for INFORMATION MODAL
 const infoButton = document.querySelector('#info');
 const modalInfo = document.querySelector('#modal');
@@ -16,7 +15,9 @@ const mailCloseBtn = document.querySelector('.mail-close-button');
 
 
 
-// Mail button toggler MODAL
+
+$(document).ready(() => {
+    // Mail button toggler MODAL
 
 mailButton.addEventListener('click', () => {
     modalMail.classList.toggle('hide-modal-mail');
@@ -57,5 +58,11 @@ infoButton.addEventListener('click', () => {
 modalClose.addEventListener('click', () => {
     modalInfo.classList.remove('hide-modal');
 });
+});
+
+
+
+
+
 
 

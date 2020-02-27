@@ -41,20 +41,16 @@ li a {
 }
 
 
-
-
-
-
 .footer-img {
-    max-height: 75%;
-    max-width: 75%;
+    max-height: 95%;
+    max-width: 95%;
     opacity: 90%;
     border-radius: 50%;
 }
 
 .foot-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around !important;
     width: 100%;
 }
 
@@ -207,40 +203,6 @@ li a {
 .hide-modal-mail {
     display: block;
 }
-
-
-#lustgas {
-    max-height: 20%;
-}
-
-
-#info {
-    max-width: 85%;
-    max-height: 85%;
-    margin-top: 3px;
-    margin-right: 40px;
-}
-
-#contact {
-    max-width: 90%;
-    max-height: 90%;
-    margin-top: 3px;
-}
-
-#mail {
-    max-width: 92%;
-    max-height: 92%;
-    margin-top: 3px;
-}
-
-#instagram {
-    max-width: 95%;
-    max-height: 95%;
-    margin-top: 3px;
-}
-
-
-
 
 
 @media (max-width: 500px) {
