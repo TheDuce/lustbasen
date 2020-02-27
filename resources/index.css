@@ -60,9 +60,9 @@ li a {
 
 .modal {
     position: fixed;
-    top: 71.5%;
-    left: 81%;
-    height: 26%;
+    top: 69.5%;
+    left: 80%;
+    height: 28%;
     width: 25%;
     padding-left: 10px;
     transform: translate(-30%, -30%);
@@ -87,7 +87,8 @@ li a {
 }
 
 .modal-header .title {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
 
 .modal-header .close-button {
@@ -246,7 +247,7 @@ li a {
     .modal {
         width: 80%;
         right: 50%;
-        top: 62%;
+        top: 66%;
         transform: translate(-88%, -20%);
     }
 
