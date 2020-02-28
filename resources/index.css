@@ -8,10 +8,13 @@ body {
 
 nav {
     display: flex;
+    position: fixed;
     height: 12vh;
+    top: 0;
     background: #000;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 footer {
@@ -204,38 +207,66 @@ li a {
     display: block;
 }
 
-
 @media (max-width: 500px) {
     .modal {
         width: 80%;
         right: 50%;
-        top: 66%;
+        height: 45% !important;
+        top: 53% !important;
         transform: translate(-88%, -20%);
     }
 
     .modal-contact {
         width: 80%;
         right: 50%;
-        top: 68.5%;
+        top: 59%;
+        height: 38%;
         transform: translate(-60%, -20%);
     }
     .modal-mail {
         width: 80%;
         right: 50%;
-        top: 68.5%;
+        top: 61%;
+        height: 35%;
         transform: translate(-30%, -20%);
-    }
+    }      
+      .image-wrapper:nth-child(odd)
+      {
+        padding-right:5px;
+      }
+      
+      .image-wrapper > img {
+				width: 100%;
+      }
+      
+      .image-wrapper > span {
+        display: inline-block;
+        width: 100%;
+      }
 
-    .startpage {
-        margin-top: 70px !important;
-        margin-right: 41px !important; 
-        height: 100% !important;
-    }
-    .image-wrapper {
+      .container h1{
+        font-size: 1rem;
+      }
+      .container {
+					margin-top: -5px;
+      }
+			.img-wrp {
+				margin-top: 320px !important;
+        margin-left: 45px !important;
+			}
+      .image-wrapper {
         box-sizing:border-box;
-        float: left !important;
-        width: 32% !important;
-        height: 32% !important;
+        float: left;
+        margin-left: 45px !important;
+        width: 30% !important;
+      }
+      .img-wrptwo {
+				margin-left: 45px !important;
+				margin-top: -1px !important;
+			}
+      .image-wrapper:nth-child(even)
+      {
+        padding-left:5px;
       }
       
       .image-wrapper:nth-child(odd)
@@ -243,9 +274,9 @@ li a {
         padding-right:5px;
       }
       
-      .image-wrapper > img {
-        width: 100%;
-      }
+      .startpage {
+				margin-top: 1px;
+			}
       
       .image-wrapper > span {
         display: inline-block;
@@ -275,14 +306,43 @@ li a {
     text-align: center;
 }
 
+.container .texten {
+    position: absolute;
+    color: white;
+    margin-top: 155px;
+    text-align: center;
+    letter-spacing: 1px;
+    width: 100%;
+    font-weight: bold;
+}
 
+.container .textentwo {
+    position: absolute;
+    color: white;
+    margin-top: 220px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+
+.container .textenthree {
+    position: absolute;
+    color: white;
+    margin-top: 285px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
 
 .image-wrapper {
     box-sizing:border-box;
     float: left;
-    margin-top: 50px;
-    margin-left: 60px;
-    width: 20%;
+    margin-top: 370px;
+    margin-left: 99px;
+    width: 17%;
     padding: 10px 15px;
   }
   
@@ -296,7 +356,7 @@ li a {
     padding-right:5px;
   }
   
-  .image-wrapper > img {
+	.image-wrapper > img {
     width: 100%;
   }
   
