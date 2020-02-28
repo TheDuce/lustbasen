@@ -241,13 +241,6 @@ li a {
         display: inline-block;
         width: 100%;
       }
-
-      .container h1{
-        font-size: 1rem;
-      }
-      .container {
-					margin-top: -5px;
-      }
 			.img-wrp {
 				margin-top: 320px !important;
 			}
@@ -279,6 +272,12 @@ li a {
 			.foot-links li a img{
 				min-height: 70%;
 			} 
+		.container h1{
+			font-size: 1rem;
+		}
+		.container {
+				margin-top: -5px;
+		}
 }
 
 .namnett {
@@ -302,6 +301,8 @@ li a {
     font-size: 1.4rem;
     text-align: center;
 }
+
+
 
 .container .texten {
     position: absolute;
