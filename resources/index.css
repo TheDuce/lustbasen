@@ -19,9 +19,7 @@ nav {
 
 footer {
     background: #000;
-    height: 10vh;
-    display: flex;
-    opacity: 75%;
+    height: 60px;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -43,18 +41,18 @@ li a {
     justify-content: space-around;
 }
 
-
 .footer-img {
-    max-height: 95%;
-    max-width: 95%;
-    opacity: 90%;
-    border-radius: 50%;
+	max-width: 40px;
+	max-height: 40px;
+	border-radius: 50%;
+	margin-left: -64px;
+	margin-top: -8px;
 }
 
 .foot-links {
-    display: flex;
-    justify-content: space-around !important;
-    width: 100%;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
 }
 
 .modal {
@@ -211,23 +209,23 @@ li a {
     .modal {
         width: 80%;
         right: 50%;
-        height: 45% !important;
-        top: 53% !important;
+				height: 33% !important;
+        top: 62% !important;
         transform: translate(-88%, -20%);
     }
 
     .modal-contact {
         width: 80%;
         right: 50%;
-        top: 59%;
-        height: 38%;
+        top: 65%;
+        height: 29%;
         transform: translate(-60%, -20%);
     }
     .modal-mail {
         width: 80%;
         right: 50%;
-        top: 61%;
-        height: 35%;
+        top: 69%;
+        height: 25%;
         transform: translate(-30%, -20%);
     }      
       .image-wrapper:nth-child(odd)
@@ -252,16 +250,14 @@ li a {
       }
 			.img-wrp {
 				margin-top: 320px !important;
-        margin-left: 45px !important;
 			}
       .image-wrapper {
         box-sizing:border-box;
         float: left;
-        margin-left: 45px !important;
+        margin-left: 65px !important;
         width: 30% !important;
       }
       .img-wrptwo {
-				margin-left: 45px !important;
 				margin-top: -1px !important;
 			}
       .image-wrapper:nth-child(even)
@@ -273,15 +269,16 @@ li a {
       {
         padding-right:5px;
       }
-      
-      .startpage {
-				margin-top: 1px;
-			}
+   
       
       .image-wrapper > span {
         display: inline-block;
         width: 100%;
-      }
+			}
+
+			.foot-links li a img{
+				min-height: 70%;
+			} 
 }
 
 .namnett {
